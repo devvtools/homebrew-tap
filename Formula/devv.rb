@@ -1,26 +1,26 @@
 class Devv < Formula
   desc "Developer utilities in your terminal — interactive REPL + pipelines"
   homepage "https://devv.tools"
-  version "0.1.0"
+  version "0.2.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/devvtools/devv-cli/releases/download/v0.1.0/devv-darwin-arm64"
-      sha256 "161eed1f11752d0c0576b7961104bd1148d0ef23177d6517c5dbda4dd95e14ec"
+      url "https://github.com/devvtools/devv-cli/releases/download/v0.2.1/devv-darwin-arm64"
+      sha256 "bfe5b5d202c94cef2f77831ce92cfa6ee6d64fc2ce7f066f955438d7052e7f8d"
     else
-      url "https://github.com/devvtools/devv-cli/releases/download/v0.1.0/devv-darwin-x64"
-      sha256 "9934aaa34a1840bf08bd07174fbc62d93917d50163b6d03b044a1e47a2e9ebb6"
+      url "https://github.com/devvtools/devv-cli/releases/download/v0.2.1/devv-darwin-x64"
+      sha256 "e3a4a0ebd830e7df60d29dfb32f17bcb2cfe24b672103ba1784ce2d66eaa4ca8"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/devvtools/devv-cli/releases/download/v0.1.0/devv-linux-arm64"
-      sha256 "b969a1c6d1f2b978c6cc4c7e53949313d97887da928861e62f7db326ce22be7d"
+      url "https://github.com/devvtools/devv-cli/releases/download/v0.2.1/devv-linux-arm64"
+      sha256 "ee1d887bb498384a0f4d947e2c70026e472285c17ab03b6a0b7f7d7f824f9628"
     else
-      url "https://github.com/devvtools/devv-cli/releases/download/v0.1.0/devv-linux-x64"
-      sha256 "a736626693b8461bdcd829da2df08e5e99d015a565b9d55f7ce8635e9f20b3c0"
+      url "https://github.com/devvtools/devv-cli/releases/download/v0.2.1/devv-linux-x64"
+      sha256 "460797eaf17c795269a04ce9f766b4dfdab838c5693f46eb956a1c9be6b22bcb"
     end
   end
 
